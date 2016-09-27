@@ -1,0 +1,228 @@
+body
+{
+	background-image:url("https://hd.unsplash.com/photo-1458053688450-eef5d21d43b3");
+	background-size: 100% 1000px;
+	background-repeat:no-repeat;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	background-color:black;
+}
+
+#formContent
+{
+	text-align: center;
+
+
+}
+
+.tab
+{
+	color: white;
+	font-size: 1.3em;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+.tabActive
+{
+	color:red;
+	style:italic;
+}
+
+.tab:hover
+{
+	color:darkred;
+	cursor:pointer;
+}
+
+.review
+{
+	margin-left: 40px;
+	color: white;
+	margin-top: 40px;
+}
+
+.reviewClear
+{
+	clear:both;
+}
+
+.reviewTitle
+{
+	font-size:1.5em;
+	color: red;
+	margin-bottom: 20px;
+	text-shadow: black 0 2px;
+}
+
+.reviewImage
+{
+	float:left;
+	margin-right:20px;
+}
+
+.reviewSummary
+{
+
+}
+
+#formBackground
+{
+
+	-moz-border-radius-topleft: 30px;
+	-moz-border-radius-topright: 30px;
+	-webkit-border-top-left-radius: 30px;
+	-webkit-border-top-right-radius: 30px;
+	margin-top: 20px;
+}
+
+.content
+{
+
+}
+
+
+#search-bar
+{
+	margin-top:20px;
+}
+#title
+{
+	font-size: 8em;
+	color: white;
+	text-align: center;
+}
+
+#searchTab
+{
+	display:none;
+}
+
+#featuredTab
+{
+
+}
+
+#resultsBackground
+{
+
+	-webkit-border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+
+}
+
+#dispcity
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#results
+{
+	margin-top: 35px;
+}
+
+#prelim
+{
+	color:white;
+	font-size: 1.5em;
+}
+
+#change
+{
+	margin-left: 50px;
+}
+
+#txtHint
+{
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+
+#stackResults
+{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left: 250px;
+
+}
+
+#stackResults a
+{
+	color: white;
+}
+
+#stackBackground
+{
+
+
+	-moz-border-radius-topleft: 30px;
+	-moz-border-radius-topright: 30px;
+	-webkit-border-top-left-radius: 30px;
+	-webkit-border-top-right-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+}
+
+#stack
+{
+	padding-top: 20px;
+}
+#stackInput
+{
+	width: 200px;
+	margin-top:20px;
+	margin-left: 240px;
+}
+
+#stackButton
+{
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+#resultsOutput
+{
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 50px;
+}
+
+#button {
+    padding: 14px 24px;
+    border: .25px solid white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: maroon;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: red;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: red;
+    box-shadow: none;
+}
+
+#resultBox
+{
+	margin-bottom: 30px;
+	overflow:auto;
+}
